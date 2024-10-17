@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expone el puerto en el que correrá la aplicación (4200 parece ser para una aplicación Angular; para Python, generalmente sería 5000 u 8000)
-EXPOSE 80
+EXPOSE 4200
 
 # Comando para ejecutar la aplicación
 CMD ["python", "app.py"]
